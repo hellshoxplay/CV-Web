@@ -1,0 +1,10 @@
+/* CSS Document */
+a,.header h2, .form-control, .nav-tabs, .content-element h1{ border-bottom-color:skyblue}
+a:hover,a:focus {border-color:skyblue}
+.progress .bar span, .portfolio .more, .portfolio .item-content .img .img-hover a, .flex-direction-nav a:before{ color:skyblue }
+.social li a:hover, .progress .bar span, .nav-testimonials li.active a, .contact, .container-portfolio .element .text{ background-color:skyblue }
+.header-about{ border-left-color:skyblue}
+.list li:before, .testimonial-name:before,h2:before, h2:before, h3:before, .navbar-default .navbar-nav>.active>a:before, .portfolio .subnavigation li.active a:before, .arrow-down a:before{ border-color:skyblue; color:skyblue }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover{ border-top-color: skyblue; border-left-color: skyblue; border-right-color: skyblue; }
+
+
