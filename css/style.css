@@ -34,11 +34,11 @@ a, a:hover, a:focus {
 h1 {
 	font-family: 'Anton', sans-serif;
 	font-size: 120px;
-	margin: 0px;
+	margin:0px;
 	text-shadow: 1px 1px #ccc, -1px -1px #444;
 	color: #fff;
 	line-height: 1em;
-	margin-bottom: 27px
+	margin-bottom:27px
 }
 .depth:before, .depth:after {
 	content: attr(title);
@@ -463,6 +463,20 @@ h5 {
 	width: 270.2px
 }
 
+#social a{
+	border:none;
+}
+
+.menuswitch{
+    margin-top: 25px;
+}
+.menuswitch .nav-link{
+    color: #ffffff;
+}
+
+.menuswitch .nav-tabs{
+    border:none;
+}
 
 /* Centre d'intérêt
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */	
@@ -503,7 +517,6 @@ h5 {
 /* Lightbox
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */	
 .load-lightbox {
-	background-image: url(../img/load-lightbox.gif);
 	background-repeat: no-repeat;
 	background-position: 50% 300px;
 	height: 100%
