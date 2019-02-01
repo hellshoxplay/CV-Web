@@ -68,7 +68,7 @@
         <h2 class="ml5">
         <span class="text-wrapper">
           <span class="line line1"></span>
-          <h1>Thierry STOLLSTEINER</h1>
+          <div class="h1">Thierry STOLLSTEINER</div>
           <span class="line line2"></span>
           <span class="line line1"></span>
           <span class="letters letters-left">Developpeur Web</span>
@@ -95,36 +95,37 @@
                     mettre à
                     profit tout ce que j'ai appris dans ma nouvelle activité</p>
                 <div class="contour-rotate"><span class="rotate">PHP, JAVASCRIPT, CSS, HTML5, JQUERY, MYSQL</span></div>
-                <div class=" row menuswitch justify-content-center">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#hackathon" role="tab" aria-controls="home" aria-selected="true">Hackathons</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#projetclient" role="tab" aria-controls="profile" aria-selected="false">Projets clients</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#autre" role="tab" aria-controls="contact" aria-selected="false">Autres</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="hackathon" role="tabpanel" aria-labelledby="hackathon-tab">
-                        <img src="img/realisations/hackathon2labo1.png" alt="Hackathon 2" title="Hackathon2" width="300px"/>
-                        <img src="img/realisations/hackathon2labo2.png" alt="Hackathon 2 " title="Hackathon 2 " width="300px"/>
-                    </div>
-                    <div class="tab-pane fade" id="projetclient" role="tabpanel" aria-labelledby="projet-tab">
-                        <img src="img/realisations/projet2bernardiere1.png" alt="Projet 2 Bernardiere" title="Projet 2 Bernardiere" width="300px"/>
-                        <img src="img/realisations/projet2bernardiere2.png" alt="Projet 2 Bernardiere" title="Projet 2 Bernardiere" width="300px"/>
-                        <img src="img/realisations/projet2bernardiere3.png" alt="Projet 2 Bernardiere" title="Projet 2 Bernardiere" width="300px"/>
-                        <img src="img/realisations/projet3labo1.png" alt="Projet 3 " title="Projet 3" width="300px"/>
-                        <img src="img/realisations/projet3labo2.png" alt="Projet 3 " title="Projet 3" width="300px"/>
-                    </div>
-                    <div class="tab-pane fade" id="autre" role="tabpanel" aria-labelledby="autre-tab">
-                        <img src="img/realisations/zefilmuneed.png" alt="zefilmuneed" title="zefilmuneed" width="300px"/>
-                        <img src="img/realisations/apirestapiplatform.png" alt="Apiplatform" title="Apiplatform" width="300px"/>
-                    </div>
-                </div>
-            </div>
+                <div id="gallerieimage"></div>
+
+
+                <!--<ul class="nav nav-tabs" id="myTab" role="tablist">-->
+                    <!--<li class="nav-item">-->
+                        <!--<a class="nav-link active" id="home-tab" data-toggle="tab" href="#hackathon" role="tab" aria-controls="home" aria-selected="true">Hackathons</a>-->
+                    <!--</li>-->
+                    <!--<li class="nav-item">-->
+                        <!--<a class="nav-link" id="profile-tab" data-toggle="tab" href="#projetclient" role="tab" aria-controls="profile" aria-selected="false">Projets clients</a>-->
+                    <!--</li>-->
+                    <!--<li class="nav-item">-->
+                        <!--<a class="nav-link" id="contact-tab" data-toggle="tab" href="#autre" role="tab" aria-controls="contact" aria-selected="false">Autres</a>-->
+                    <!--</li>-->
+                <!--</ul>-->
+                <!--<div class="tab-content" id="myTabContent">-->
+                    <!--<div class="tab-pane fade show active" id="hackathon" role="tabpanel" aria-labelledby="hackathon-tab">-->
+                        <!--<img src="img/realisations/hackathon2labo1.png" alt="Hackathon 2" title="Hackathon2" width="300px"/>-->
+                        <!--<img src="img/realisations/hackathon2labo2.png" alt="Hackathon 2 " title="Hackathon 2 " width="300px"/>-->
+                    <!--</div>-->
+                    <!--<div class="tab-pane fade" id="projetclient" role="tabpanel" aria-labelledby="projet-tab">-->
+                        <!--<img src="img/realisations/projet2bernardiere1.png" alt="Projet 2 Bernardiere" title="Projet 2 Bernardiere" width="300px"/>-->
+                        <!--<img src="img/realisations/projet2bernardiere2.png" alt="Projet 2 Bernardiere" title="Projet 2 Bernardiere" width="300px"/>-->
+                        <!--<img src="img/realisations/projet2bernardiere3.png" alt="Projet 2 Bernardiere" title="Projet 2 Bernardiere" width="300px"/>-->
+                        <!--<img src="img/realisations/projet3labo1.png" alt="Projet 3 " title="Projet 3" width="300px"/>-->
+                        <!--<img src="img/realisations/projet3labo2.png" alt="Projet 3 " title="Projet 3" width="300px"/>-->
+                    <!--</div>-->
+                    <!--<div class="tab-pane fade" id="autre" role="tabpanel" aria-labelledby="autre-tab">-->
+                        <!--<img src="img/realisations/zefilmuneed.png" alt="zefilmuneed" title="zefilmuneed" width="300px"/>-->
+                        <!--<img src="img/realisations/apirestapiplatform.png" alt="Apiplatform" title="Apiplatform" width="300px"/>-->
+                    <!--</div>-->
+                <!--</div>-->
             </div>
         </div>
     </section>
@@ -468,6 +469,8 @@
 <!-- Initialize Map with default address -->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.easing.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
@@ -484,6 +487,9 @@
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/timeline.js"></script>
 <script type="text/javascript" src="js/titleanimation.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/delaunay.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script type="text/javascript" src="js/gallerieimage.js"></script>
 </body>
 
 </html>
